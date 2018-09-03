@@ -1,0 +1,21 @@
+{
+  "name": "paq85/phpfoundations",
+  "type": "library",
+  "description": "Tweaks for PHP to make it more reliable",
+  "keywords": ["php", "reliability", "predictability"],
+  "homepage": "https://github.com/paq85/phpfoundations",
+  "license": "GNU GENERAL PUBLIC LICENSE v3",
+  "authors": [
+    {
+      "name": "Damian Sromek",
+      "email": "damian.sromek@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "symfony/debug": "^3.4||^4.0"
+  },
+  "autoload": {
+    "psr-4": { "Paq85\\Phpfoundations\\": "" }
+  }
+}
